@@ -161,7 +161,7 @@ body {
 }
 .rightColumn {
   width: 210px;
-  float: left;
+  float: right;
   background: #edeef0;
   padding-bottom: 20000px;
   margin-bottom: -20000px;
