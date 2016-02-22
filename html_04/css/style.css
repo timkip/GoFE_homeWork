@@ -13,6 +13,7 @@ body {
 }
 
 /*HEADER*/
+
 .headerBox {
   position: relative;
   height: 165px;
@@ -48,35 +49,40 @@ body {
 .contactsHeader {
   font-weight: bold;
 }
+#mailTo {
+  text-decoration: none;
+  color: #128aa7;
+}
 .country {
   position: absolute;
   top: 110px;
   right: 25px;
-	float: right;
-	clear: both;
+  float: right;
   text-align: center;
 }
 .countryList {
-	float: right;
+  float: right;
 }
 .countryList li {
-	display: inline-block;
-	width: 55px;
-	height: 65px;
+  display: inline-block;
+  width: 55px;
+  height: 65px;
   text-decoration: underline;
   font-family: "Tahoma Regular", sans-serif;
   font-size: 10px;
 }
 .countryList li a {
-	color: #128aa7;
+  color: #128aa7;
 }
 .countryList li a:hover {
-	font-weight: bold;
+  font-weight: bold;
 }
+
 /*end of HEADER*/
 
 
 /*MENU*/
+
 #menu {
   padding: 0;
   margin: 0;
@@ -127,10 +133,12 @@ body {
 #menu li:hover {
   background: #424242;
 }
+
 /*end of MENU*/
 
 
 /*CONTENT*/
+
 .contentBox {
   width: 1000px;
   overflow: hidden;
@@ -173,6 +181,7 @@ span {
   text-align: left;
   line-height: 24px;
 }
+
 /*end of CONTENT*/
 
 .allRights {
