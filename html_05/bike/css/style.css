@@ -1,0 +1,163 @@
+@font-face {
+  font-family: 'Helvetica Neue Regular';
+  src: url('helveticaneue-thin-webfont.eot');
+  src: url('helveticaneue-thin-webfont.eot?#iefix') format('embedded-opentype'), url('helveticaneue-thin-webfont.woff2') format('woff2'), url('helveticaneue-thin-webfont.woff') format('woff'), url('helveticaneue-thin-webfont.ttf') format('truetype'), url('helveticaneue-thin-webfont.svg#helvetica_neueregular') format('svg');
+  font-weight: normal;
+  font-style: normal;
+}
+body {
+  background-image: url(../img/backgroundImage.jpg);
+  background-size: 100%;
+  /*background-attachment: fixed;*/
+}
+.headerBlock {
+  width: 100%;
+  height: 35px;
+  background: #085699;
+}
+.headerBlock:after {
+  content: '';
+  display: block;
+  clear: both;
+}
+.headerMenu li {
+  display: inline-block;
+  float: right;
+}
+.headerMenu li a {
+  display: block;
+  padding-left: 12px;
+  padding-right: 12px;
+  text-decoration: none;
+  font-family: 'Helvetica Neue Regular', sans-serif;
+  font-size: 14px;
+  line-height: 35px;
+  color: #60b5ed;
+}
+.headerMenu li a:hover {
+  background: #4eabda;
+  color: #fff;
+}
+.MinhasOfertas {
+  float: right;
+  border-left: 1px solid #60b5ed;
+  padding-left: 12px;
+  padding-right: 12px;
+}
+.imgFlag {
+  vertical-align: middle;
+}
+.imgFlag:hover {
+  transform: scale(1.05);
+}
+.MinhasOfertas a {
+  text-decoration: none;
+  font-family: 'Helvetica Neue Regular', sans-serif;
+  font-size: 14px;
+  line-height: 35px;
+  color: #fff;
+}
+.MinhasOfertas:hover {
+  background: #4eabda;
+}
+.Ola {
+  margin-right: 20px;
+}
+.Ola p {
+  float: right;
+  display: block;
+  padding-left: 12px;
+  padding-right: 12px;
+  background: #4eabda;
+  font-family: 'Helvetica Neue Regular', sans-serif;
+  font-size: 14px;
+  line-height: 35px;
+  color: #fff;
+}
+.Ola p a {
+  color: #fff;
+}
+.Authorization {
+  width: 560px;
+  height: 610px;
+  margin: 200px auto;
+  background-color: rgba(0, 0, 0, 0.5);
+}
+.Cadastre-se {
+  height: 65px;
+  margin: auto;
+  margin-bottom: 35px;
+  color: #fff;
+  font-family: 'Helvetica Neue Regular', sans-serif;
+  font-size: 24px;
+  line-height: 65px;
+  text-align: center;
+  border-bottom: 1px solid #fff;
+}
+.buttonFacebook {
+  margin: auto;
+}
+.buttonFacebook:hover {
+  box-shadow: 0px 0px 20px 5px rgba(87, 147, 185, 0.5);
+  transition: 0.5s;
+}
+.OU {
+  height: 35px;
+  margin: auto;
+  color: #aaa;
+  font-family: 'Helvetica Neue Regular', sans-serif;
+  font-size: 14px;
+  line-height: 35px;
+  text-align: center;
+}
+.regFields {
+  width: 274px;
+  height: 440px;
+  margin: 0px auto;
+}
+input:not([type="checkbox"]) {
+  width: 100%;
+  height: 36px;
+  margin: 8px 0;
+  padding-left: 10px;
+  background-color: #000;
+  border: 1px solid #000;
+  font-family: 'Helvetica Neue Regular', sans-serif;
+  font-size: 14px;
+  color: #ccc;
+}
+input:hover {
+  background: #1b5288;
+  border: 1px solid #699bcc;
+  box-shadow: 0px 0px 20px 1px rgba(87, 147, 185, 0.5);
+  transition: 0.5s;
+}
+.checkbox {
+  margin-top: 20px;
+  margin-bottom: 20px;
+  font-family: 'Helvetica Neue Regular', sans-serif;
+  color: #ccc;
+}
+.submit {
+  width: 150px;
+  height: 37px;
+  margin: 20px auto;
+}
+button {
+  width: inherit;
+  height: inherit;
+  margin: 10px auto;
+  background: linear-gradient(to bottom, #50aedb, #2e7ac4);
+  border: 1px solid #4a9cd6;
+  border-radius: 2px;
+  color: #fff;
+  font-family: 'Helvetica Neue Regular', sans-serif;
+  letter-spacing: 0.1px;
+}
+.agreement {
+  margin-top: 35px;
+  text-align: center;
+  font-family: 'Helvetica Neue Regular', sans-serif;
+  color: #ccc;
+  font-size: 11px;
+}
