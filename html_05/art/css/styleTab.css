@@ -1,5 +1,5 @@
 table {
-  border: none;
+  border: 11px solid transparent;
   width: 500px;
   height: 540px;
   border-collapse: collapse;
@@ -9,78 +9,23 @@ table {
   margin-top: -270px;
   margin-left: -250px;
 }
-
-/* WHITE cells */
-
-.white1, .white2, .white3, .white4, .white5, .white6, .white7, .white8, .white9, .white10, .white11  {
-  background-color: #ffffff;
-}
-.white1 {
-  border-right: 10px solid #2a2c1d;
-  border-bottom: 10px solid #2a2c1d;
-}
-.white2 {
-  border-left: 10px solid #2a2c1d;
-  border-right: 10px solid #2a2c1d;
-  border-bottom: 10px solid #2a2c1d;
-}
-.white3, .white4 {
-  border-top: 10px solid #2a2c1d;
-  border-right: 10px solid #2a2c1d;
-  border-bottom: 10px solid #2a2c1d;
-}
-.white5, .white7, .white9 {
+td {
   border: 10px solid #2a2c1d;
 }
-.white6, .white8 {
-  border-top: 10px solid #2a2c1d;
-  border-left: 10px solid #2a2c1d;
-  border-bottom: 10px solid #2a2c1d;
-}
-.white10 {
-  border-top: 10px solid #2a2c1d;
-  border-left: 10px solid #2a2c1d;
-  border-right: 10px solid #2a2c1d;
-}
-.white11 {
-  border-top: 10px solid #2a2c1d;
-  border-left: 10px solid #2a2c1d;
-}
-
-/* YELLOW cells */
-
-.yellow1, .yellow2, .yellow3 {
-  background-color: #fff96a;
-}
-.yellow1, .yellow2 {
-  border-left: 10px solid #2a2c1d;
-  border-bottom: 10px solid #2a2c1d;
-}
-.yellow2, .yellow3 {
-  border-top: 10px solid #2a2c1d;
-}
-.yellow3 {
-  border-right: 10px solid #2a2c1d;
-}
-
-/* RED cells */
-
 .red {
-  background-color: #ff5c3f;
-  border: 10px solid #2a2c1d;
+  background-color: #ff5b3e;
+  height: 175px;
 }
-
-/* BLACK cells */
-
-.black1, .black2 {
-  background-color: #2a2c1d;
-  border: 10px solid #2a2c1d;
-}
-
-/* BLUE cells */
-
 .blue {
-  background-color: #054480;
-  border: 10px solid #2a2c1d;
-  border-right: none;
+  background-color: #0d4b8b;
+}
+.yellow {
+  background-color: #fff160;
+}
+.black {
+  background-color: #24302c;
+}
+.lastBlackBlock {
+  width: 12px;
+  height: 25px;
 }
